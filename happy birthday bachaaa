@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Pradeep!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Birthday, Pradeep!</h1>
+    <p class="tagline">From your best friend, Mansi</p>
+
+    <section class="music">
+      <audio controls autoplay loop>
+        <source src="your-music.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+    </section>
+
+    <section class="message">
+      <h2>Special Message</h2>
+      <p>[Yahan tumhara khud ka likha message aayega]</p>
+    </section>
+
+    <section class="gallery">
+      <h2>Our Memories</h2>
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+    </section>
+
+    <section class="cake">
+      <img src="cake.gif" alt="Birthday Cake">
+    </section>
+  </div>
+</body>
+</html>
+  body {
+  background: linear-gradient(to right, #ffccff, #ccffff);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+h1 {
+  font-size: 3em;
+  color: #ff3399;
+}
+.tagline {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.music, .message, .gallery, .cake {
+  margin: 40px 0;
+}
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.cake img {
+  width: 250px;
+  margin-top: 20px;
+}
+
